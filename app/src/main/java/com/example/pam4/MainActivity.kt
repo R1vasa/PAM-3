@@ -101,7 +101,7 @@ fun GadgetItem(gadget: Gadget) {
                 modifier = Modifier.size(80.dp).clip(CircleShape),
                 contentScale = ContentScale.Crop
             )
-            Spacer(Modifier.width(10.dp))
+            Spacer(Modifier.width(16.dp))
             Text(text = gadget.name, style = MaterialTheme.typography.titleMedium)
         }
     }
